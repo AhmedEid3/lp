@@ -105,8 +105,8 @@ body {
 
 .main .box .invest p {
   padding: 5px;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 20px;
   color: #0750a4;
 }
 
@@ -119,6 +119,7 @@ body {
 @media (min-width: 1201px) {
   .main .box .invest p {
     padding-left: 45px;
+    padding-right: 60px;
   }
 }
 
