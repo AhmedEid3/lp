@@ -2,8 +2,8 @@
   &, & .nav-wrapper ,
   & a.sidenav-trigger,
   & a.sidenav-trigger i {
-    height: 64px;
-    line-height: 64px;
+    height: 45px;
+    line-height: 45px;
   }
   &, & ul a {
     font-size: 18px;
@@ -17,7 +17,7 @@
 
     .logo {
       width: 150px;
-      height: 160px;
+      height: 150px;
       background: #ffffff;
       border: 1px solid #ccc;
       border-radius: 3px;
@@ -43,7 +43,7 @@
     transform: translateX(-50%);
     border: 1px solid;
     padding: 0 40px;
-    line-height: 54px;
+    line-height: 33px;
     top: 0;
     bottom: 0;
     margin: 10px 5px 5px;
@@ -59,6 +59,10 @@
       margin: auto;
       width: 24px;
     }
+  }
+  .modal-trigger {
+    background: url("../images/login.png") center;
+    padding: 0 30px;
   }
 }
 
