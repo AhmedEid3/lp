@@ -1,43 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/main-style.css">
 
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Landing Page</title>
 
 </head>
 
 <body>
 
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Logo</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
-    </div>
-  </nav>
+  <!--  start background section-->
+  <section class="main">
 
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">Javascript</a></li>
-    <li><a href="mobile.html">Mobile</a></li>
-  </ul>
+
+    <div class="box">
+      <div class="white invest">
+        <p class="container">
+          ????? is an alternative investment firm opportunistically investing in private equity as well as debt
+          products.
+          The focus is on principal investments in Europe and the Middle East with a focus on real estate and later
+          stage private equity.
+        </p>
+      </div>
+
+      <!--    start navbar-->
+      <nav class="navbar">
+        <div class="nav-wrapper container-fluid">
+          <a href="#" class="brand-logo hide-on-med-and-down">
+            <div class="logo">
+              <img src="images/logo3.png" alt="">
+            </div>
+          </a>
+          <a href="#" class="brand-logo show-on-medium-and-down hide-on-med-and-up">
+            LOGO
+          </a>
+
+          <a href="mailto:Office@company.com" class="hide-on-med-and-down mail">
+            <i class="material-icons">email</i>
+            Office@company.com
+          </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#">Log In</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li>
+          <img src="images/side.png" />
+        </li>
+        <li>
+          <a href="mailto:Office@company.com">Office@company.com</a>
+        </li>
+        <li>
+          <a href="#">Log In</a>
+        </li>
+      </ul>
+      <!--    End navbar-->
+    </div>
+
+
+  </section>
+  <!--  End background section-->
 
 
   <!--JavaScript at end of body for optimized loading-->
   <script src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="js/materialize.min.js"></script>
   <script src="js/app.min.js"></script>
 </body>
 </html>

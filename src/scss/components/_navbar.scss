@@ -1,0 +1,68 @@
+.navbar {
+  &, & .nav-wrapper ,
+  & a.sidenav-trigger,
+  & a.sidenav-trigger i {
+    height: 64px;
+    line-height: 64px;
+  }
+  &, & ul a {
+    font-size: 18px;
+  }
+  background-color: rgba($primary-color, 0.95);
+  position: relative;
+  margin-top: 5px;
+
+  .brand-logo {
+    bottom: 0;
+
+    .logo {
+      width: 150px;
+      height: 150px;
+      @media (max-width: $min-md) {
+        width: 120px;
+        height: 120px;
+      }
+
+      img {
+        background: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 3px;
+        height: auto;
+        max-width: 100%;
+      }
+    }
+  }
+  .mail {
+    &:hover{
+      background: rgba(0,0,0,0.1);
+    }
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid;
+    padding: 0 40px;
+    line-height: 54px;
+    top: 0;
+    bottom: 0;
+    margin: 10px 5px 5px;
+
+    i {
+      display: inline-block;
+      position: absolute;
+      top: -14px;
+      z-index: 1;
+      left: 0;
+      line-height: 1;
+      right: 0;
+      margin: auto;
+      width: 24px;
+    }
+  }
+}
+
+//.sidenav {
+//  background-color: rgba($primary-color, 0.95);
+//}
+//

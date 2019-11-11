@@ -1,5 +1,14 @@
 /*Global Settings*/
+@font-face {
+  src: url("../fonts/EngraversGothic.TTF");
+  font-family: 'EngraversGothic';
+}
+
 body {
-  font-family: 'Raleway', sans-serif;
-  color: $font-color;
+  font-family: 'EngraversGothic', sans-serif;
+}
+
+.container-fluid {
+  width: 90%;
+  margin: auto;
 }
