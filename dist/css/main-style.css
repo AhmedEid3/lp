@@ -48,12 +48,6 @@ body {
   max-width: 100%;
 }
 
-.navbar .brand-logo .logo p {
-  color: #000;
-  line-height: 85px;
-  text-align: center;
-}
-
 .navbar .mail {
   z-index: 0;
   position: absolute;
