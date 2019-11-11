@@ -121,6 +121,83 @@ body {
 .main .modal {
   max-height: 100%;
   max-width: 480px;
+  background: transparent;
+}
+
+.main .modal .modal-content {
+  padding: 0;
+}
+
+.main .modal .row {
+  margin-bottom: 0;
+}
+
+.main .modal .row .col {
+  padding: 0;
+}
+
+.main .modal .tabs {
+  border-radius: 10px 10px 0 0;
+  height: auto;
+}
+
+.main .modal .tabs .indicator {
+  height: 5px;
+  background-color: #cfcfd1;
+}
+
+.main .modal .tabs .tab {
+  height: auto;
+}
+
+.main .modal .tabs .tab a {
+  padding: 24px;
+  background-color: rgba(18, 108, 204, 0.95);
+  color: #fff;
+  font-size: 25px;
+}
+
+.main .modal .content {
+  background: #fff;
+  padding: 24px !important;
+}
+
+.main .modal form .input-field .prefix.active {
+  color: #126ccc;
+}
+
+.main .modal form .btn {
+  background: #126ccc;
+  height: auto;
+  padding: 5px 40px;
+}
+
+.main .modal form .checkbox {
+  padding-left: 10px;
+  margin: 30px 0;
+}
+
+.main .modal form input:not([type]):focus:not([readonly]),
+.main .modal form input[type=text]:not(.browser-default):focus:not([readonly]),
+.main .modal form input[type=password]:not(.browser-default):focus:not([readonly]),
+.main .modal form input[type=email]:not(.browser-default):focus:not([readonly]),
+.main .modal form input[type=url]:not(.browser-default):focus:not([readonly]),
+.main .modal form input[type=time]:not(.browser-default):focus:not([readonly]),
+.main .modal form input[type=date]:not(.browser-default):focus:not([readonly]),
+.main .modal form input[type=datetime]:not(.browser-default):focus:not([readonly]),
+.main .modal form input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+.main .modal form input[type=tel]:not(.browser-default):focus:not([readonly]),
+.main .modal form input[type=number]:not(.browser-default):focus:not([readonly]),
+.main .modal form input[type=search]:not(.browser-default):focus:not([readonly]),
+.main .modal form textarea.materialize-textarea:focus:not([readonly]) {
+  -webkit-box-shadow: 0 1px 0 0 #126ccc;
+          box-shadow: 0 1px 0 0 #126ccc;
+  border-bottom: 1px solid #126ccc;
+}
+
+.main .modal form [type="checkbox"]:checked + span:not(.lever):before {
+  border-right: 2px solid #126ccc;
+  border-bottom: 2px solid #126ccc;
 }
 
 /*# sourceMappingURL=main-style.css.map */
