@@ -48,7 +48,7 @@
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li>
-              <a href="#">Log In</a>
+              <a class="modal-trigger" href="#sidenav">Log In</a>
             </li>
           </ul>
         </div>
@@ -62,15 +62,30 @@
           <a href="mailto:Office@company.com">Office@company.com</a>
         </li>
         <li>
-          <a href="#">Log In</a>
+          <a class="modal-trigger" href="#sidenav">Log In</a>
         </li>
       </ul>
       <!--    End navbar-->
     </div>
 
-
   </section>
   <!--  End background section-->
+
+  <!-- Modal Structure -->
+  <div id="sidenav" class="modal">
+    <div class="modal-content">
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s6"><a href="#test1">Log In</a></li>
+            <li class="tab col s6"><a href="#test2">Register</a></li>
+          </ul>
+        </div>
+        <div id="test1" class="col s12">Log In</div>
+        <div id="test2" class="col s12">Register</div>
+      </div>
+    </div>
+  </div>
 
 
   <!--JavaScript at end of body for optimized loading-->
