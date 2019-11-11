@@ -36,23 +36,22 @@ body {
 
 .navbar .brand-logo .logo {
   width: 150px;
-  height: 150px;
-}
-
-@media (max-width: 601px) {
-  .navbar .brand-logo .logo {
-    width: 120px;
-    height: 120px;
-  }
-}
-
-.navbar .brand-logo .logo img {
+  height: 170px;
   background: #ffffff;
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 3px;
-  height: auto;
+}
+
+.navbar .brand-logo .logo img {
+  height: 100%;
   max-width: 100%;
+}
+
+.navbar .brand-logo .logo p {
+  color: #000;
+  line-height: 85px;
+  text-align: center;
 }
 
 .navbar .mail {
@@ -94,7 +93,7 @@ body {
 
 .main .box {
   position: absolute;
-  bottom: 5%;
+  bottom: 1%;
   left: 0;
   right: 0;
 }
@@ -102,7 +101,7 @@ body {
 .main .box .invest p {
   padding: 5px;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 24px;
   color: #0750a4;
 }
 
@@ -120,14 +119,9 @@ body {
 
 .main .modal {
   max-height: 100%;
-  max-width: 400px;
+  max-width: 320px;
   background: transparent;
-}
-
-@media (max-width: 992px) {
-  .main .modal {
-    top: 5% !important;
-  }
+  top: 4% !important;
 }
 
 .main .modal .modal-content {
@@ -143,7 +137,7 @@ body {
 }
 
 .main .modal .tabs {
-  border-radius: 10px 10px 0 0;
+  border-radius: 7px 7px 0 0;
   height: auto;
 }
 
@@ -157,15 +151,15 @@ body {
 }
 
 .main .modal .tabs .tab a {
-  padding: 15px;
+  padding: 8px;
   background-color: rgba(18, 108, 204, 0.95);
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .main .modal .content {
   background: rgba(255, 255, 255, 0.8);
-  padding: 24px !important;
+  padding: 20px !important;
 }
 
 .main .modal form .input-field .prefix.active {

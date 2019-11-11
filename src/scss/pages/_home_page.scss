@@ -8,7 +8,7 @@
 
   .box {
     position: absolute;
-    bottom: 5%;
+    bottom: 1%;
     left: 0;
     right: 0;
 
@@ -17,7 +17,7 @@
         padding: 5px;
         //margin-left: 150px;
         font-size: 20px;
-        line-height: 28px;
+        line-height: 24px;
         color: $primary-color;
         @media (min-width: $min-lg) {
           padding-left: 60px;
@@ -32,11 +32,10 @@
 
   .modal {
     max-height: 100%;
-    max-width: 400px;
+    max-width: 320px;
     background: transparent;
-    @media (max-width: $max-md) {
-      top: 5% !important;
-    }
+    top: 4% !important;
+
     .modal-content {
       padding: 0;
     }
@@ -51,7 +50,7 @@
     }
 
     .tabs {
-      border-radius: 10px 10px 0 0;
+      border-radius: 7px 7px 0 0;
 
       .indicator {
         height: 4px;
@@ -63,10 +62,10 @@
 
         a {
           //padding: 24px;
-          padding: 15px;
+          padding: 8px;
           background-color: rgba($form-color, 0.95);
           color: #fff;
-          font-size: 18px;
+          font-size: 15px;
         }
       }
 
@@ -75,7 +74,7 @@
 
     .content {
       background: rgba(#fff, 0.8);
-      padding: 24px !important;
+      padding: 20px !important;
     }
 
     form {
@@ -113,7 +112,7 @@
         border-bottom: 1px solid $form-color;
       }
 
-      [type="checkbox"]:checked+span:not(.lever):before {
+      [type="checkbox"]:checked + span:not(.lever):before {
 
         border-right: 2px solid $form-color;
         border-bottom: 2px solid $form-color;
