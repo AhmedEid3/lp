@@ -98,3 +98,5 @@ Temporary Items
 .apdisk
 
 /design/
+/node_modules/
+/idea/
