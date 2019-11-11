@@ -28,6 +28,18 @@
         max-width: 100%;
       }
     }
+    .logo-mobile {
+      width: 80px;
+      height: 45px;
+      background: #ffffff;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      padding: 1px;
+      img {
+        height: 100%;
+        max-width: 100%;
+      }
+    }
   }
   .mail {
     &:hover{
