@@ -30,6 +30,12 @@ body {
   font-size: 18px;
 }
 
+@media (min-width: 1201px) {
+  .navbar ul {
+    margin-right: 75px;
+  }
+}
+
 .navbar .brand-logo {
   bottom: 0;
 }
@@ -113,7 +119,6 @@ body {
 @media (min-width: 1201px) {
   .main .box .invest p {
     padding-left: 45px;
-    padding-right: 60px;
   }
 }
 

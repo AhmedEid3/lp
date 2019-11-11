@@ -8,6 +8,11 @@
   &, & ul a {
     font-size: 18px;
   }
+  & ul {
+    @media (min-width: $min-xl) {
+      margin-right: 75px;
+    }
+  }
   background-color: rgba($primary-color, 0.95);
   position: relative;
   margin-top: 5px;
