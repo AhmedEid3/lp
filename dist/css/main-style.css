@@ -110,13 +110,7 @@ body {
 
 @media (min-width: 993px) {
   .main .box .invest p {
-    padding-left: 110px;
-  }
-}
-
-@media (min-width: 1201px) {
-  .main .box .invest p {
-    padding-left: 90px;
+    padding-left: 140px;
   }
 }
 
