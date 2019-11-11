@@ -86,7 +86,7 @@ body {
 }
 
 .main {
-  background-image: url("../images/bg_img.png");
+  background-image: url("../images/bg_img.jpg");
   height: 100vh;
   background-size: cover;
   position: relative;
@@ -120,8 +120,14 @@ body {
 
 .main .modal {
   max-height: 100%;
-  max-width: 480px;
+  max-width: 400px;
   background: transparent;
+}
+
+@media (max-width: 992px) {
+  .main .modal {
+    top: 5% !important;
+  }
 }
 
 .main .modal .modal-content {
@@ -142,7 +148,7 @@ body {
 }
 
 .main .modal .tabs .indicator {
-  height: 5px;
+  height: 4px;
   background-color: #cfcfd1;
 }
 
@@ -151,10 +157,10 @@ body {
 }
 
 .main .modal .tabs .tab a {
-  padding: 24px;
+  padding: 15px;
   background-color: rgba(18, 108, 204, 0.95);
   color: #fff;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .main .modal .content {
@@ -169,7 +175,7 @@ body {
 .main .modal form .btn {
   background: #126ccc;
   height: auto;
-  padding: 5px 40px;
+  padding: 0 30px;
 }
 
 .main .modal form .checkbox {

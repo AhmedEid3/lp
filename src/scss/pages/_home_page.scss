@@ -1,6 +1,6 @@
 //Start background section
 .main {
-  background-image: url("../images/bg_img.png");
+  background-image: url("../images/bg_img.jpg");
   height: 100vh;
   background-size: cover;
 
@@ -32,9 +32,11 @@
 
   .modal {
     max-height: 100%;
-    max-width: 480px;
+    max-width: 400px;
     background: transparent;
-
+    @media (max-width: $max-md) {
+      top: 5% !important;
+    }
     .modal-content {
       padding: 0;
     }
@@ -52,7 +54,7 @@
       border-radius: 10px 10px 0 0;
 
       .indicator {
-        height: 5px;
+        height: 4px;
         background-color: #cfcfd1;;
       }
 
@@ -60,10 +62,11 @@
         height: auto;
 
         a {
-          padding: 24px;
+          //padding: 24px;
+          padding: 15px;
           background-color: rgba($form-color, 0.95);
           color: #fff;
-          font-size: 25px;
+          font-size: 18px;
         }
       }
 
@@ -85,7 +88,7 @@
       .btn {
         background: $form-color;
         height: auto;
-        padding: 5px 40px;
+        padding: 0 30px;
       }
 
       .checkbox {
