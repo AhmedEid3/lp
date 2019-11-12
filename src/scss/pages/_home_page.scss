@@ -1,11 +1,11 @@
-//Start background section
+/*Start main section*/
 .main {
-  background-image: url("../images/bg_img.jpg");
+  background-image: url("../images/bg.jpg");
   height: 100vh;
   background-size: cover;
-
   position: relative;
 
+  /*Start box section*/
   .box {
     position: absolute;
     bottom: 5%;
@@ -18,23 +18,18 @@
           width: 80%;
         }
         padding: 5px;
-        //margin-left: 150px;
         font-size: 20px;
         line-height: 22px;
         color: $primary-color;
         @media (min-width: $min-lg) {
           padding-left: 140px;
-          //padding-left: 60px;
         }
-        //@media (min-width: $min-xl) {
-        //  padding-left: 90px;
-        //  //padding-right: 60px;
-        //}
-
       }
     }
   }
+  /*End box section*/
 
+/*Start popup section*/
   .modal {
     max-height: 100%;
     max-width: 320px;
@@ -47,52 +42,44 @@
 
     .row {
       margin-bottom: 0;
-
       .col {
         padding: 0;
       }
 
     }
-
+    /*Start header of popup*/
     .tabs {
+      height: auto;
       border-radius: 7px 7px 0 0;
-
       .indicator {
         height: 4px;
         background-color: #cfcfd1;;
       }
-
       .tab {
         height: auto;
-
         a {
-          //padding: 24px;
           padding: 8px;
           background-color: rgba($form-color, 0.95);
           color: #fff;
           font-size: 15px;
         }
       }
-
-      height: auto;
     }
+    /*End header of popup*/
 
+    /*Start body of popup*/
     .content {
       background: rgba(#fff, 0.8);
       padding: 20px !important;
     }
+    /*End body of popup*/
 
+    /*Start form of popup register and login*/
     form {
       .input-field {
         .prefix.active {
           color: $form-color;
         }
-      }
-
-      .btn {
-        background: $form-color;
-        height: auto;
-        padding: 0 30px;
       }
 
       .checkbox {
@@ -123,8 +110,8 @@
         border-bottom: 2px solid $form-color;
       }
     }
+    /*End form of popup register and login*/
   }
+  /*End popup section*/
 }
-
-
-//End background section
+/*End main section*/

@@ -3,23 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
+
+  <!-- CDN minified CSS -->
+  <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+
+  <!-- materialize.css-->
   <link rel="stylesheet" href="css/materialize.min.css">
+
+  <!--  Custom style-->
   <link rel="stylesheet" href="css/main-style.css">
 
   <title>Landing Page</title>
-
 </head>
 
 <body>
 
-  <!--  start background section-->
-  <section class="main">
-
-
+  <!--  Start Main section-->
+  <main class="main">
+    <!--    Start box to combine paragraph and navbar together-->
     <div class="box">
+
+      <!--      Start invest paragraph-->
       <div class="white invest">
         <p class="container">
           ????? is an alternative investment firm opportunistically investing in private equity as well as debt
@@ -28,28 +35,31 @@
           stage private equity.
         </p>
       </div>
+      <!--      End invest paragraph-->
 
-      <!--    start navbar-->
+      <!--    Start navbar-->
       <nav class="navbar">
         <div class="nav-wrapper container-fluid">
+          <!--          logo for large screen-->
           <a href="#" class="brand-logo hide-on-med-and-down">
             <div class="logo z-depth-3">
-              <img src="images/logo3.png" alt="">
+              <img src="images/logo_large_screen.png" alt="">
             </div>
           </a>
+          <!--          Logo for small screen-->
           <a href="#" class="brand-logo show-on-medium-and-down hide-on-med-and-up">
             <div class="logo-mobile z-depth-1">
               <img src="images/logo_mobile.jpg" alt="">
             </div>
-
           </a>
-
+          <!--          To send mail-->
           <a href="mailto:Office@company.com" class="hide-on-med-and-down mail">
             <i class="material-icons">email</i>
             Office@company.com
           </a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
+          <!--          Log in-->
+          <ul class="right">
             <li>
               <a class="modal-trigger" href="#sidenav">Log In</a>
             </li>
@@ -57,9 +67,11 @@
         </div>
       </nav>
 
+      <!--      Start Sidenav on Mobile Screen-->
       <ul class="sidenav" id="mobile-demo">
+        <!--        Logo-->
         <li>
-          <img src="images/side.png" />
+          <img src="images/logo_sidenav.png" />
         </li>
         <li>
           <a href="mailto:Office@company.com">Office@company.com</a>
@@ -70,26 +82,31 @@
       </ul>
       <!--    End navbar-->
     </div>
+    <!--    End box section-->
 
-
-    <!-- Modal Structure -->
+    <!-- Popup Structure -->
     <div id="sidenav" class="modal">
       <div class="modal-content">
 
         <div class="row">
+          <!--        Header of popup-->
           <div class="col s12">
             <ul class="tabs">
+              <!--              Log in tab-->
               <li class="tab col s6">
                 <a href="#login" class="active">Log In</a>
               </li>
-
+              <!--              Register tab-->
               <li class="tab col s6">
                 <a href="#register">Register</a>
               </li>
             </ul>
           </div>
+          <!--  End header of popup-->
 
+          <!--          Body of popup-->
           <div id="login" class="col s12 content">
+            <!--            Form for log in-->
             <form action="">
               <div class="input-field">
                 <i class="material-icons prefix">email</i>
@@ -111,9 +128,11 @@
                 <button type="submit" class="btn">Log In</button>
               </div>
             </form>
+            <!--            End form of log in-->
           </div>
 
           <div id="register" class="col s12 content">
+            <!--            Form for register-->
             <form action="">
               <div class="input-field">
                 <i class="material-icons prefix">account_circle</i>
@@ -147,15 +166,18 @@
                 <button type="submit" class="btn">Register</button>
               </div>
             </form>
+            <!--            End form for register-->
           </div>
+          <!--          End body of popup-->
 
         </div>
       </div>
     </div>
-  </section>
+    <!--    End popup-->
+  </main>
   <!--  End background section-->
 
-  <!--JavaScript at end of body for optimized loading-->
+  <!--JavaScript files -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script src="js/app.min.js"></script>
