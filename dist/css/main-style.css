@@ -13,6 +13,12 @@ body {
   margin: auto;
 }
 
+@media (max-width: 600px) {
+  .container-fluid {
+    width: 95%;
+  }
+}
+
 /*End Global Settings*/
 .btn {
   background: #126ccc;
@@ -84,6 +90,13 @@ body {
   margin: 10px 5px 5px;
 }
 
+@media (max-width: 992px) {
+  .navbar .mail {
+    left: 15%;
+    padding: 0 10px;
+  }
+}
+
 .navbar .mail:hover {
   background: rgba(0, 0, 0, 0.1);
 }
@@ -112,6 +125,8 @@ body {
   height: 100vh;
   background-size: cover;
   position: relative;
+  background-repeat: no-repeat;
+  background-position: top;
   /*Start box section*/
   /*End box section*/
   /*Start popup section*/

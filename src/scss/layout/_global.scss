@@ -11,5 +11,8 @@ body {
 .container-fluid {
   width: 90%;
   margin: auto;
+  @media (max-width: $max-sm) {
+    width: 95%;
+  }
 }
 /*End Global Settings*/
