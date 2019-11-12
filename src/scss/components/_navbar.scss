@@ -1,11 +1,12 @@
 /*Start navbar*/
 .navbar {
-  &, & .nav-wrapper ,
+  &, & .nav-wrapper,
   & a.sidenav-trigger,
   & a.sidenav-trigger i {
     height: 45px;
     line-height: 45px;
   }
+
   &, & ul a {
     font-size: 18px;
   }
@@ -24,11 +25,13 @@
       border: 1px solid #ccc;
       border-radius: 3px;
       padding: 3px;
+
       img {
         height: 100%;
         max-width: 100%;
       }
     }
+
     .logo-mobile {
       width: 80px;
       height: 45px;
@@ -36,12 +39,14 @@
       border: 1px solid #ccc;
       border-radius: 3px;
       padding: 1px;
+
       img {
         height: 100%;
         max-width: 100%;
       }
     }
   }
+
   .mail {
     z-index: 0;
     position: absolute;
@@ -57,24 +62,38 @@
       left: 15%;
       padding: 0 10px;
     }
-    &:hover{
-      background: rgba(0,0,0,0.1);
-    }
-    i {
-      display: inline-block;
-      position: absolute;
-      top: -14px;
-      z-index: 1;
+    @media (max-width: $max-sm) {
+      padding: 5px;
+      line-height: 20px;
+      position: relative;
+      float: left;
       left: 0;
-      line-height: 1;
-      right: 0;
-      margin: auto;
-      width: 24px;
+      transform: none;
+      margin: 8px 0;
     }
+
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
   }
-  .modal-trigger {
-    background: url("../images/login.png") center;
-    padding: 0 30px;
+
+  i {
+    display: inline-block;
+    position: absolute;
+    top: -14px;
+    z-index: 1;
+    left: 0;
+    line-height: 1;
+    right: 0;
+    margin: auto;
+    width: 24px;
   }
+}
+
+.modal-trigger {
+  background: url("../images/login.png") center;
+  padding: 0 30px;
+}
+
 }
 /*End navbar*/

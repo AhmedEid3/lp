@@ -97,6 +97,19 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .navbar .mail {
+    padding: 5px;
+    line-height: 20px;
+    position: relative;
+    float: left;
+    left: 0;
+    -webkit-transform: none;
+            transform: none;
+    margin: 8px 0;
+  }
+}
+
 .navbar .mail:hover {
   background: rgba(0, 0, 0, 0.1);
 }
